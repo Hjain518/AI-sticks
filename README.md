@@ -1,4 +1,4 @@
-AI STICKS
+# AI STICKS
 
 In AI Sticks Game there is a heap of sticks on a board. On their turn, each player picks up 1 to 3 sticks. The one who has to pick the final stick will be the loser.
 
@@ -29,15 +29,15 @@ Adding an option for AI against another AI.
 		  b)chooseBest         (description given below)
 5.)Decide winner
 
-Player vs AI
+## Player vs AI
 
 We create an artificial intelligence player for the Game of Sticks and then we make an algorithm (in the code) to figure out the best strategy for the remaining turns.
 
-AI VS AI
+## AI VS AI
 
 Both the AI figures out the best strategy to win the game in each turn or if the win is not possible,it figures out the best possible move to delay that win.
 
-Algorithm
+## Algorithm
 
 choose to fast calulate best way (if n>32),
 	otherwise explore the and or tree with alpha beta pruning
